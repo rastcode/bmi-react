@@ -1,0 +1,62 @@
+.main-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  padding: 0.8rem 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(215, 215, 215),
+    rgb(233, 233, 233),
+    rgb(255, 255, 255)
+  );
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(174, 152, 152);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(91, 87, 87, 0.814);
+  transition: all 200ms linear;
+}
+
+.Female-style {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  padding: 0.8rem 1rem;
+  background: #d6176d;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(174, 152, 152);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(243, 237, 237, 0.814);
+  transition: all 200ms linear;
+}
+ .Male-style {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  padding: 0.8rem 1rem;
+  background: #3e2cdd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(174, 152, 152);
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(255, 250, 250, 0.814);
+  transition: all 200ms linear;
+}
+.Female-style:hover {
+  background: #ec2981;
+  color: white;
+  transition: all 200ms linear;
+}
+.Male-style:hover {
+  background: #106dca;
+  color: white;
+  transition: all 200ms linear;
+}
+

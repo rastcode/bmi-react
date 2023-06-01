@@ -1,0 +1,93 @@
+.slider-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgba(235, 237, 236, 0);
+  border-radius: 8px;
+  /* box-shadow: 2px 2px 5px rgb(175, 171, 171); */
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 95%;
+  width: 45%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(215, 215, 215),
+    rgb(233, 233, 233),
+    rgb(255, 255, 255)
+  );
+  box-shadow: 2px 2px 8px rgb(176, 176, 176);
+  padding: 1rem 1.5rem;
+  margin-left: 15px;
+}
+
+.text {
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.MuiSlider-thumb {
+  color: rgb(188, 192, 192);
+  box-shadow: 2px 2px 5px rgb(66, 66, 66);
+  shape-outside: margin-box;
+  margin: 0 30px;
+  width: 8px;
+  height: 12px;
+  
+}
+.MuiSlider-thumb:hover {
+  color: rgb(122, 209, 209);
+}
+.MuiSlider-rail {
+  background-image: linear-gradient(
+    rgba(255, 187, 187, 0.739),
+    rgba(248, 248, 153, 0.648),
+    rgba(77, 121, 77, 0.625)
+  );
+}
+.MuiSlider-track {
+  background-image: linear-gradient(
+    rgb(251, 84, 84),
+    rgb(254, 254, 82),
+    rgb(62, 130, 62)
+  );
+}
+
+.information-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+@media screen and (max-width:495px){
+  .slider-container{
+    width: 100%;
+    padding: 0px;
+    margin: 40px 0px;
+  }
+  .slider{
+    width: 38%;
+  }
+}

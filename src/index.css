@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Vazir" !important;
+  min-width: 305px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 95vh;
+  background: rgb(241, 241, 241);
+  padding: 20px;
+}
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 90%;
+  background-color: rgb(251, 255, 255);
+  padding: 15px;
+  margin: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.499);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  background-color: #f2f2f2;
+  top: 35%;
+  left: 35%;
+  position: absolute;
+  border-radius: 8px;
+
+  box-shadow: 5px 5px 8px rgba(230, 231, 231, 0.499);
+}
+.pic-container {
+  width: 25%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-container img {
+  width: 100%;
+  height: 93%;
+}
+.navbar-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px rgba(60, 106, 105, 0.754);
+  padding: 8px;
+}
+.nav h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(107, 107, 107);
+}
+
+@media screen and (max-width: 980px) {
+  .pic-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+    .box-container {
+      width: 100%;
+    }
+    .box-modal {
+        width: 60%;
+        left: 20%;
+      }
+  }
+  
+@media screen and (max-width: 495px) {
+  .box-container {
+    padding: 5px;
+    height: 100%;
+    margin: 2px;
+  }
+  .container {
+    padding: 5px;
+    height: 95%;
+  }
+  
+}
