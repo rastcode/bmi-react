@@ -1,28 +1,24 @@
 import React from "react";
 import "./Gbutton.css";
 import dataContext from "../../contexts/DataContext";
-import { useContext ,useState} from "react";
+import { useContext, useState } from "react";
 
-
-function GButton({ gen }) {
-  
-
+function GButton({ gen ,style}) {
   const CData = useContext(dataContext);
-  const colorHandler=()=>{
-    
-    
-  }
+  
   return (
     <div
-      className={`main-button ${gen}-style`}
+      className={`main-button ${style}-button `}
       onClick={() => {
         CData.setGender((CData.gender = gen));
-        
+        gen==="Male"?CData.setGender(true):CData.setGender(false)
+       
       }}
     >
       {gen}
     </div>
   );
+  
 }
 
 export default GButton;

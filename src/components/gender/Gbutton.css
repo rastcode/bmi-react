@@ -19,7 +19,7 @@
   transition: all 200ms linear;
 }
 
-.Female-style {
+.Female-button {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@
   color: rgba(243, 237, 237, 0.814);
   transition: all 200ms linear;
 }
- .Male-style {
+ .Male-button {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -49,12 +49,12 @@
   color: rgba(255, 250, 250, 0.814);
   transition: all 200ms linear;
 }
-.Female-style:hover {
+.Female-button:hover {
   background: #ec2981;
   color: white;
   transition: all 200ms linear;
 }
-.Male-style:hover {
+.Male-button:hover {
   background: #106dca;
   color: white;
   transition: all 200ms linear;

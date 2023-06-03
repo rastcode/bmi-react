@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "@mui/material/Slider";
 import Info from "../information/Info";
-import "./slider.css";
+import "./Slider.css";
 import { useContext } from "react";
 import dataContext from "../../contexts/DataContext";
 

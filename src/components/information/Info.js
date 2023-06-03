@@ -1,5 +1,5 @@
 import dataContext from "../../contexts/DataContext";
-import "./infor.css";
+import "./Infor.css";
 import React, { useContext } from "react";
 
 function Info({ inf }) {
@@ -21,11 +21,16 @@ function Info({ inf }) {
         >
           -
         </button>
-        <button className="button" onClick={() =>
+        <button
+          className="button"
+          onClick={() =>
             inf === "age"
               ? contextData.setAge((contextData.age += 1))
               : contextData.setWeight((contextData.weight += 1))
-          }>+</button>
+          }
+        >
+          +
+        </button>
       </div>
     </div>
   );

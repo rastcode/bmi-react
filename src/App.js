@@ -15,7 +15,7 @@ const App = () => {
   const [age, setAge] = useState(20);
   const [weight, setWeight] = useState(60);
   const [height, setHeight] = useState(160);
-  const [gender, setGender] = useState();
+  const [gender, setGender] = useState("Male");
   const [bmi, setBmi] = useState();
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
@@ -38,6 +38,10 @@ const App = () => {
     }
     handleOpen();
   };
+
+  // const genderStyle=()=>{
+  //   onClick&&
+  // }
 
   return (
     <div>
